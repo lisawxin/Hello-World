@@ -10,3 +10,5 @@ DataTable dt2 = new DataTable();
 dtXpath.PrimaryKey = new DataColumn[] { dt2.Columns["xxx1"] };
 dtXpath = DBHelper.loadConfigFromDB(sql2);  //query table1 from DB
 
+//so I could find the row in xxxtable2 based on xxxtable1 primary key xxx1
+//it means the value xxx1 in xxxtable1 is the same with xxxtable2
