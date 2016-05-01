@@ -12,3 +12,4 @@ dtXpath = DBHelper.loadConfigFromDB(sql2);  //query table1 from DB
 
 //so I could find the row in xxxtable2 based on xxxtable1 primary key xxx1
 //it means the value xxx1 in xxxtable1 is the same with xxxtable2
+//and I could save this result into de data row
