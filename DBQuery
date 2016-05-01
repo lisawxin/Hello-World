@@ -1,0 +1,12 @@
+//DB operating based on the primary key to link two table query
+
+string sql1 = "SELECT xxx1, xxx2, xxx3 FROM xxxtable1";
+DataTable dt1 = new DataTable();
+dtXpath.PrimaryKey = new DataColumn[] { dt1.Columns["xxx1"] };
+dtXpath = DBHelper.loadConfigFromDB(sql1);  //query table1 from DB
+
+string sql2 = "SELECT xxx1, xxx2, xxx3 FROM xxxtable2";
+DataTable dt2 = new DataTable();
+dtXpath.PrimaryKey = new DataColumn[] { dt2.Columns["xxx1"] };
+dtXpath = DBHelper.loadConfigFromDB(sql2);  //query table1 from DB
+
